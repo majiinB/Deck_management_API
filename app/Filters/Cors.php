@@ -31,7 +31,7 @@ class Cors implements FilterInterface
         
         if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
             exit;
-        }c
+        }
     }
 
     /**
